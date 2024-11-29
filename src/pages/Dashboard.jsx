@@ -5083,7 +5083,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import wave from "./src/pages/wave.svg";
+import wave from "src/pages/wave.svg";
 import { ToastContainer, toast } from 'react-toastify';
 import { jsPDF } from 'jspdf';
 import { HomeIcon, PlusCircle, Trash2, LogOut } from 'lucide-react';
