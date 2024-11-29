@@ -5083,7 +5083,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import wave from "wave.svg";
+// import wave from "wave.svg";
 import { ToastContainer, toast } from 'react-toastify';
 import { jsPDF } from 'jspdf';
 import { HomeIcon, PlusCircle, Trash2, LogOut } from 'lucide-react';
@@ -5579,9 +5579,7 @@ const Dashboard = () => {
           </div>
         )}
       </div>
-      <div className="w-full mt-8">
-        <img src={wave} alt="Wave Design" className="w-full h-auto" />
-      </div>
+
     </div>
   );
 };
