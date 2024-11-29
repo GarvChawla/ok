@@ -1,0 +1,254 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+  }
+
+  body{
+  display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+  
+  .dashboard-container {
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  input, select {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .currency-selector, .budget-section, .expense-section {
+    margin-bottom: 20px;
+  }
+  
+  .budget-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+  }
+  
+  .recent-expenses {
+    margin-top: 20px;
+  }
+  
+  .recent-expenses div {
+    padding: 5px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #007BFF;
+    padding: 10px;
+  }
+  
+  nav button {
+    margin-left: 10px;
+    background-color: #FF4D4D;
+  }
+  
+  nav button:first-child {
+    background-color: #0056b3;
+  }
+  
+  nav button:hover {
+    background-color: #FF0000;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+
+   */
+
+   /* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc;
+  }
+  
+  .dashboard-container {
+    padding: 30px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: #007BFF;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  input, select {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .currency-selector, .budget-section, .expense-section {
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-button {
+    background-color: #FF4D4D;
+    margin-left: 10px;
+  }
+  
+  .navbar-button:hover {
+    background-color: #FF0000;
+  }
+  
+  .existing-budgets {
+    margin-top: 20px;
+  }
+  
+  .budget-card {
+    border: 2px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .budget-card h4 {
+    margin: 0;
+    color: #007BFF;
+  }
+  
+  .budget-card p {
+    margin: 5px 0;
+  }
+  
+  .budget-card .details-button {
+    background-color: #FF4D4D;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .recent-expenses {
+    margin-top: 30px;
+  }
+  
+  .recent-expenses h3 {
+    margin-bottom: 15px;
+  }
+  
+  .recent-expenses div {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  button.details-button {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .details-button:hover {
+    background-color: #ff0000;
+  }
+   */
+
+   body{
+    display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 3rem;
+  }
+
+  .dashboard-transition {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .red{
+    border: 2px solid red;
+  }
