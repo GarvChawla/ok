@@ -546,7 +546,7 @@
 
 
 import React, { useState } from 'react';
-import wave from "D:/Web Dev/Money-Mate/PAID GPT/1/BudgetManagerClone/src/pages/wave.svg";
+
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import { Pie } from 'react-chartjs-2';
@@ -743,9 +743,7 @@ const BudgetDetails = () => {
           Go Back
         </button>
       </div>
-      <div className="w-full mt-8">
-       <img src={wave} alt="Wave Design" className="w-full h-auto" />
-  </div>
+    
     </div>
   );
 };
